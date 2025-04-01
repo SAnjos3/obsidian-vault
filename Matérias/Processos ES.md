@@ -2,96 +2,94 @@
 
 Processo se definem pelas estruturas criadas para organizar e coordenar o trabalho durante o desenvolvimento do projeto
 
-# Opções Relevantes de Processos
-## **1. Scrum (Metodologia Ágil)**
+### Surgimento Temporal dos Processos e Frameworks
 
-🔹 **Melhor para:** Projetos dinâmicos, com mudanças frequentes nos requisitos.  
-🔹 **Como funciona:**
+![[Pasted image 20250401092351.png]]
+### Tipos
 
-- O trabalho é dividido em **sprints** (geralmente de 1 a 4 semanas).
+Existem três tipos de processos:
+
+- **Processos Abrangentes**: comentam especificamente sobre Engenharia de Software. Exemplos: Cascata, Modelo V, Unifiede, Process (UP), OpenUp, AUP.
+
+- **Processos com foco em prática técnicas específicas:** Não carimbam especificamente disciplinas relacionadas com Engenharia de Software. Exemplos: XP, FDD.
+
+- **Processos híbridos/adaptativos**: São adaptativos por acompanharem os contextos e cenários de evolução das técnicas na história. Eles são marcos na evolução de modelos da Engenharia de Software. Exemplos: Espiral, DSDM, RAD.
+### Opções Relevantes de Processos Abrangentes
+
+#### Modelo Cascata
+
+Nesse modelo cada uma das disciplinas é iniciada, efetuada e finalizada por completo antes, para que assim seja possível passar para a próxima etapa.
+
+Esse modelo foi tradicionalmente projetado para garantir que os requisitos fossem bem documentados antes do desenvolvimento. No entanto, essa abordagem pode gerar alguns desafios:
+
+- Dificuldades de adaptação nos requisitos durante o desenvolvimento.
+
+- Dependência de uma documentação exaustivamente elaborada antes da implementação
+
+- Maior risco de falhas devido à entrega tardia do software funcional.
+
+![[Pasted image 20250401093239.png]]
+
+#### Modelo em V
+
+Também conhecido como modelo de verificação e validação, é uma abordagem de desenvolvimento de software que enfatiza a relação entre cada fase de desenvolvimento e sua respectiva fase de testes. 
+
+O lado esquerdo representa as fases de desenvolvimento, enquanto o lado direito representa as fases de testes em relação ao lado direito. Por último, o vértice do "V" é associado à implementação. 
+
+Esse processo propõe uma maneira de corrigir o encontro de erros tardios no processo em cascata, realizando mais etapas de teste para garantir que o planejamento está devidamente coeso antes da implementação.
+
+![[Pasted image 20250401093354.png]]
+
+**Fases do Modelo em V:**
+
+1. **Análise de Requisitos de Negócio:** Compreensão detalhada das necessidades e expectativas do cliente.​
     
-- Existe um backlog com todas as tarefas que precisam ser feitas.
+2. **Projeto de Sistema:** Definição da arquitetura geral do sistema com base nos requisitos.​
     
-- Equipe realiza reuniões diárias rápidas (**Daily Scrum**).
+3. **Projeto de Arquitetura:** Detalhamento dos módulos do sistema e suas interações.​
     
-- No final do sprint, há uma revisão e entrega do que foi desenvolvido.
+4. **Projeto de Módulo (ou Projeto de Baixo Nível):** Especificação detalhada de cada módulo individual.​
     
-
-✅ **Vantagens:** Flexibilidade, entregas rápidas, feedback contínuo.  
-❌ **Desvantagens:** Exige equipe disciplinada e comprometida.
-
-💡 **Exemplo de uso:** Desenvolvimento de um app de mensagens, onde novas funcionalidades são adicionadas a cada sprint.
-
----
-
-## **2. Kanban**
-
-🔹 **Melhor para:** Projetos contínuos e suporte técnico, sem necessidade de sprints rígidos.  
-🔹 **Como funciona:**
-
-- Usa um **quadro Kanban** com colunas como **A Fazer, Em Andamento e Concluído**.
+5. **Codificação:** Implementação dos módulos conforme os designs especificados.​
     
-- As tarefas fluem conforme são concluídas.
+6. **Teste de Unidade:** Verificação individual de cada módulo para assegurar seu funcionamento correto.​
     
-- O foco está na **visualização do fluxo de trabalho** e em evitar gargalos.
+7. **Teste de Integração:** Avaliação da interação entre módulos integrados.​
     
-
-✅ **Vantagens:** Fácil de implementar, ótima visualização do progresso.  
-❌ **Desvantagens:** Pode não funcionar bem para projetos grandes com prazos definidos.
-
-💡 **Exemplo de uso:** Manutenção de um sistema, onde cada nova solicitação de correção entra na fila e é resolvida sem precisar esperar por sprints.
-
----
-
-## **3. Extreme Programming (XP)**
-
-🔹 **Melhor para:** Projetos que exigem alta qualidade de código e mudanças frequentes.  
-🔹 **Como funciona:**
-
-- Usa práticas como **programação em par** (dois devs no mesmo código).
+8. **Teste de Sistema:** Validação do sistema completo em relação aos requisitos iniciais.​
     
-- Testes automatizados são escritos antes do código (**TDD - Test Driven Development**).
-    
-- Código sempre passa por revisões e refatoração contínua.
-    
+9. **Teste de Aceitação:** Confirmação, pelo cliente, de que o sistema atende às suas necessidades e está pronto para uso.​
+#### Unified Process (UP)
 
-✅ **Vantagens:** Código mais limpo, menos bugs, entregas frequentes.  
-❌ **Desvantagens:** Exige muita disciplina da equipe, pode ser cansativo.
+![[Pasted image 20250401093427.png]]
 
-💡 **Exemplo de uso:** Desenvolvimento de sistemas bancários, onde a qualidade do código e segurança são essenciais.
+- As ondas representam o esforço de cada uma dessas disciplinas nas fases.
 
----
+- Esse modelo tem um caráter iterativo e incremental.
 
-## **4. RUP (Rational Unified Process)**
+#### OpenUp 
 
-🔹 **Melhor para:** Projetos grandes e complexos, geralmente para empresas.  
-🔹 **Como funciona:**
+![[Pasted image 20250401093725.png]]
 
-- Divide o projeto em **fases:** Iniciação, Elaboração, Construção e Transição.
-    
-- Cada fase tem iterações (como no ágil), mas segue uma estrutura bem definida.
-    
-- Usa **documentação detalhada** e modelagem UML para planejar tudo.
-    
+#### Agile Unified Process (AUP)
 
-✅ **Vantagens:** Ideal para projetos críticos que exigem controle.  
-❌ **Desvantagens:** Burocrático, pode ser pesado para projetos pequenos.
+![[Pasted image 20250401093824.png]]
 
-💡 **Exemplo de uso:** Desenvolvimento de um sistema de ERP para grandes empresas.
+- Diferente do Up que tem uma abordagem voltada a dirigida por plano. O AUP implementa filosofias ágeis.
+#### eXtreme Programming (XP)
 
----
+![[Pasted image 20250401094003.png]]
 
-## **5. Modelo V** (Evolução do Cascata)
+- Não trata o projeto em forma de processos e disciplinas, mas sim em um conjunto de práticas repetitivas.
 
-🔹 **Melhor para:** Sistemas críticos, onde testes rigorosos são necessários.  
-🔹 **Como funciona:**
+### Processos Híbridos/Adaptativos
 
-- Cada fase de desenvolvimento tem uma fase de teste correspondente.
-    
-- Segue um fluxo rígido: primeiro requisitos, depois design, depois implementação e testes.
-    
+#### Espiral
 
-✅ **Vantagens:** Qualidade garantida, ótimo para projetos que exigem certificações.  
-❌ **Desvantagens:** Não permite mudanças fáceis no meio do projeto.
+![[Pasted image 20250401094159.png]]
 
-💡 **Exemplo de uso:** Desenvolvimento de software para controle de tráfego aéreo.
+#### Rapid Application Development (RAD)
+
+![[Pasted image 20250401094224.png]]
+
+ 

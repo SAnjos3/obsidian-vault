@@ -3,7 +3,7 @@
 1. [[Abordagens ES]]  
 2. [[Ciclos de vida ES]] 
 3. [[Processos ES]]  
-
+4. [[Frameworks ES]]
 ## Introdução à [[Engenharia de Requisitos ]](ER)  
 
 4. Aspectos humanos e sociais da Engenharia de Requisitos  
@@ -29,3 +29,9 @@
 12. User Story Mapping  
 13. Modelos de casos de uso  
 14. Especificação de casos de uso  
+
+
+
+Leffingwell, D., Widrig, D., Managing Software Requirements: A Use Case Approach, 2a. Edição, Addison-Wesley, 2003. 
+
+ Cockburn, A., Escrevendo Casos de Uso Eficazes: Um Guia Prático para Desenvolvedores de Software, 1a. Edição, Bookman Companhia, 2005. Ambler, S., Agile Modeling, Wiley, 2002.
