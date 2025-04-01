@@ -2,7 +2,7 @@
 
    - [[Definição de Sistemas Operacionais]]
    - [[História e Evolução de Sistemas Operacionais]]
-   - Estrutura e componentes principais
+   - [[ Estrutura e Componentes de Sistemas Operacionais]]
 
 ## 2. **Processos**
 

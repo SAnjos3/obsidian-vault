@@ -69,3 +69,5 @@ Um computador é um conjunto de recursos que devem ser administrados e compartil
 - Alocar e liberar o recurso
 
 Todo esse processo deve visar o máximo de eficiência.
+
+### [[Estrutura e Componentes de Sistemas Operacionais]]
