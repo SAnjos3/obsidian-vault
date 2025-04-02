@@ -12,7 +12,7 @@
 3. Recursão
 
     - Material prof. Feofiloff 
-	    - https://www.ime.usp.br/~pf/analise_de_algoritmos/aulas/recursion.html
+	    -  https://www.ime.usp.br/~pf/analise_de_algoritmos/aulas/recursion.html
 
 4. Introdução à Complexidade de Algoritmos 
 	- https://www.brunoribas.com.br/apostila-eda/ribas-complexidade-assintotica.pdf
@@ -68,9 +68,9 @@
 8. [[Tabela Hash]] 
 	- https://www.brunoribas.com.br/apostila-eda/hashtable.html
 
-9. Árvores
+9. [[Árvores]]
 
-    - Árvores Binárias
+    - [[Árvore Binária]]
 	    - https://www.brunoribas.com.br/apostila-eda/arvore.html
 
     - Árvores Balanceadas
