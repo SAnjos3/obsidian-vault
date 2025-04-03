@@ -4,10 +4,10 @@
    - [[História e Evolução de Sistemas Operacionais]]
    - [[ Estrutura e Componentes de Sistemas Operacionais]]
 
-## 2. **[[Processos]]**
+## 2. **[[Processos em Sistemas Operacionais]]**
 
    - Conceito de processo e programa
-   - Estados de um processo
+   - [[Estados de um Processo]]
    - Tabela de processos
    - Escalonamento de processos
      - Algoritmos de escalonamento

@@ -56,7 +56,18 @@ Classificação de alguns sistemas operacionais amplamente utilizados:
 
 	- Exemplos: PalmOS, Windows CE, Android, iOS, Windows Phone
 
-## Classificação das Estruturas dos Sistemas Operacionais
+### Classificação de Sistemas - Propósito
+
+- Sistema de **Propósito Único**: Criados para executar uma única função específica.
+
+	- Possuem poucos processos em execução, o que torna o controle mais simples.
+
+- Sistema de **Propósito Geral**
+
+	- Presente nos computadores modernos, onde os usuários podem rodar múltiplos programas diferentes simultaneamente
+	
+	- ```Tanenbaum: "Nos sistemas de propósito geral, múltiplos programas podem ser executados simultaneamente, o que requer um escalonador eficiente para alternar entre processos e evitar que um monopolize o processador."```
+### Classificação das Estruturas dos Sistemas Operacionais
 
 Uma das mais importantes classificações dos sistemas operacionais e esta relacionada com as configurações de seu kernel (núcleo). Dentre eles:
 

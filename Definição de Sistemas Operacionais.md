@@ -50,7 +50,6 @@ Em relação à função do sistema operacional, alguns autores concluíram cert
 - Krakowiack87/Tanenbaum95: 
 	Um sistema operacional possui duas grandes funções: criar para o usuário uma abstração do hardware (máquina estendida) e gerenciar os recursos da máquina.
 
-
 ### Máquinas Estendidas
 
 Uma máquina estendida é um sistema projetado para apresentar ao usuário uma interface mais simples e simpática do que a máquina real. O termo utilizado pode mudar para máquina abstrata e ela é equivalente ao hardware, porém mais simples de programar.
@@ -71,3 +70,5 @@ Um computador é um conjunto de recursos que devem ser administrados e compartil
 Todo esse processo deve visar o máximo de eficiência.
 
 ### [[Estrutura e Componentes de Sistemas Operacionais]]
+
+Nesse tópico são encontradas classificações de SOs em relação a suas estruturas, componentes e abordagens

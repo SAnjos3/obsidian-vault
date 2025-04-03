@@ -1,37 +1,24 @@
-BF também chamada de Brainfuck é uma linguagem de programação conhecida como exotérica, isso remete ao fato dela não ter sido projetada para ser útil ou eficiente, é mais como um desafio de programação. Programar nela tende a ser bastante complexo, porem q quantidade de comandos é bastante reduzida, assim, o intuito é construir um interpretador para essa linguagem a fim de fixar os fundamentos de compiladores.
+### **Interpretador e Compilador: Conceitos Fundamentais**
 
-Características:
+Ambos são tipos de tradutores que convertem código-fonte escrito em linguagens de programação para um formato que o computador possa executar, mas fazem isso de maneiras diferentes.
 
-- É uma linguagem Turing completa
-- Foi criada para confundir e desafiar os programadores
-- Não é útil para uso prático
-- É muito mais fácil desenvolver compiladores e interpretadores para esta linguagem do que para outras linguagens
-- O nome da linguagem é geralmente não-capitalizado
+1. **Interpretador:**
+    
+    - Traduz e executa o código linha por linha, sem gerar um arquivo separado de código de máquina.
+        
+    - Programas interpretados tendem a ser mais fáceis de depurar e modificar, mas podem ser mais lentos, pois a tradução ocorre em tempo de execução.
+        
+    - Exemplos de linguagens interpretadas: Python, JavaScript, PHP.
+        
+2. **Compilador:**
+    
+    - Traduz todo o código-fonte para código de máquina antes da execução, gerando um arquivo binário executável.
+        
+    - Isso resulta em maior velocidade na execução, mas o processo de compilação pode ser mais demorado.
+        
+    - Exemplos de linguagens compiladas: C, C++, Rust.
 
-Como funciona 
-
-- No brainfuck, o mundo é uma array unidimensional
-- É possível navegar no array, incrementar/decrementar células dessa array
-- É possível pedir input (apenas na forma de caracteres)
-- É possível escrever output
-- É possível executar loops (com uma condição imutável)
-
-- Começa na primeira casa 
-- " > " Mover para a posição da direita
-- " < " Mover para a posição da esquerda
-- " + " Incrementar o valor atual
-- " - " Decrementar o valor atual
-- " . " Imprime
-- " , " Input
-- " [ ] " Loop
-
-Primeiro desafio: considerando a lista.
-	5 - 2 - 0 - 0
-A ideia é passar todas as unidades da primeira posição para a segunda opção.
-` [ - > + < ] ` - O loop será executado ate q o valor da posição seja inicial do loop seja igual a 0.
-
-
-Com o objetivo de iniciar a produção de um interpretador, será utilizada a linguagem python.
+Com o objetivo de fixar os conceitos de interpretador, será analisado e elaborado um interpretador de [[Brainfuck]]. Por se tratar de uma linguagem simples no quesito de quantidade de sentenças. 
 
 ```python
 #!/usr/bin/python3

@@ -14,26 +14,24 @@ Existem três tipos de processos:
 - **Processos com foco em prática técnicas específicas:** Não carimbam especificamente disciplinas relacionadas com Engenharia de Software. Exemplos: XP, FDD.
 
 - **Processos híbridos/adaptativos**: São adaptativos por acompanharem os contextos e cenários de evolução das técnicas na história. Eles são marcos na evolução de modelos da Engenharia de Software. Exemplos: Espiral, DSDM, RAD.
-### Opções Relevantes de Processos Abrangentes
+###  Processos Abrangentes
 
 #### [[Modelo Cascata]]
 #### [[Modelo em V]]
 #### [[Unified Process (UP)]] 
 
-#### eXtreme Programming (XP)
-
-![[Pasted image 20250401094003.png]]
-
-- Não trata o projeto em forma de processos e disciplinas, mas sim em um conjunto de práticas repetitivas.
+#### [[eXtreme Programming (XP)]]
 
 ### Processos Híbridos/Adaptativos
 
-#### Espiral
+#### [[Espiral]]
 
-![[Pasted image 20250401094159.png]]
+#### [[Rapid Application Development (RAD)]]
 
-#### Rapid Application Development (RAD)
-
-![[Pasted image 20250401094224.png]]
-
- 
+| **Critério**        | **Modelo Espiral** | **XP** | **AUP** | **OpenUP** | **RAD** | **UP** |
+|---------------------|-----------------|------|------|------|------|------|
+| **Iteratividade**   | Alta            | Alta | Média | Alta | Alta | Média |
+| **Foco em Riscos**  | Muito Forte     | Baixo | Moderado | Baixo | Baixo | Médio |
+| **Flexibilidade**   | Alta            | Muito Alta | Média | Alta | Muito Alta | Baixa |
+| **Documentação**    | Média           | Baixa | Moderada | Baixa | Baixa | Alta |
+| **Uso Ideal**       | Projetos grandes e complexos | Projetos pequenos e dinâmicos | Projetos com equilíbrio entre ágil e tradicional | Projetos pequenos a médios com menor burocracia | Sistemas que exigem entrega rápida e evolução contínua | Projetos estruturados e previsíveis |

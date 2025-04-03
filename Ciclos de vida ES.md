@@ -1,4 +1,4 @@
-Ciclos de vida podem ser definidos pelas fases que um projeto ir passar durante o processo de seu desenvolvimento.  Isso se difere do conceito de [[Processos ES]], que é onde se define em mais detalhes como serão desenvolvidas cada etapa do ciclo de vida
+Ciclos de vida podem ser definidos pelas fases que um projeto ir passar durante o processo de seu desenvolvimento.  Isso se difere do conceito de [[Processos na Engenharia de Requisitos]], que é onde se define em mais detalhes como serão desenvolvidas cada etapa do ciclo de vida
 
 ### Tipos de Ciclos de Vida que podem ser adotados no desenvolvimento de um projeto:
 ### 1.  Preditivo
