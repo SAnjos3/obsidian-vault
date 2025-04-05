@@ -3,9 +3,9 @@
 1. Introdução
 
 2. [Linguagem C](https://www.brunoribas.com.br/apostila-eda/linguagem-C.html)
-    - scanf
-    - Strings
-    - Ponteiros
+    - [[Scanf]]
+    - [[Strings]]
+    - [[Ponteiros em C]]
     - Alocação de memória
     - Tipos abstratos de dados (struct)
 
@@ -74,7 +74,7 @@
 	    - https://www.brunoribas.com.br/apostila-eda/arvore.html
 
     - Árvores Balanceadas
-        - Árvore 2-3
+        - [[Árvore 2-3]]
 	        - https://www.ime.usp.br/~pf/estruturas-de-dados/aulas/st-twothree.html
 
         - Árvore Red Black

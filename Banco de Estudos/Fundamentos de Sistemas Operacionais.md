@@ -9,7 +9,7 @@
    - Conceito de processo e programa
    - [[Estados de um Processo]]
    - Tabela de processos
-   - Escalonamento de processos
+   - [[Escalonamento de Processos]]
      - Algoritmos de escalonamento
      - Critérios de desempenho
 
