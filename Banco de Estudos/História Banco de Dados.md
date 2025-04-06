@@ -1,3 +1,4 @@
+Essa anotação é referente a história e contexto cronológico de bancos de dados, porém é interessante acompanhar a [[Evolução de Sistemas de Bases de Dados]].
 ## Década 50 - Surgimento dos Computadores Comerciais
 
 Nesse período começou a se tornar necessárias formas de armazenamento de dados de forma eficiente.

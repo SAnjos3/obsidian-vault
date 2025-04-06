@@ -9,39 +9,7 @@ Quando fala-se sobre ponteiro, é importante levar em consideração o tamanho d
 
 O aspecto onde ponteiros e os tipos de variáveis se relacionam é na maneira como os dados são armazenados na memória. 
 
-#### Regiões da Memória
-
-- Stack -  Pilha
-
-	- Armazena toda variável local, dentro de uma função ou qualquer escopo sera armazenada na pilha(stack).
-	
-	- Uma pilha possui tamanho padrão de armazenamento de 7MB~8MB. Esse espaço é o limite de armazenamento, então caso um programa recursivo chegue em um nível de profundidade que ultrapasse esse armazenamento, um erro será retornado.
-	
-	- A pilha cresce de baixo para cima, então conforme são criadas variáveis, elas são sendo armazenadas na pilha de maneira sequencial.
-	
-	- Conforme o programa roda, as variáveis de escopos são desempilhadas da pilha e os valores de retorno empilhados.
-
-- Heap - Amontoado de memória
-
-	- A heap possui o tamanho de armazenamento equivalente ao limite de sua máquina.
-	
-	 - Não possui um sistema automático de alocação e liberação de memória. Esse processo deve ser feito manualmente pelo programa:
-	 
-		 - Alocação de memória:
-			 - `malloc()`
-			 - `calloc()`
-			 - Etc
-		
-		- Liberação de memória:
-			- `free()`
-
-- Segmento de dados
-
-	- Variáveis que são criadas em contexto global.
-
-- Segmento read only
-
-	- Variáveis que são criadas com o atributo `const`
+![[Alocação de memória em C#Regiões da Memória]]
 
 Na linguagem C, ponteiros são denominado pelo `*` . A variável do tipo ponteiro, se estiver rodando em uma arquitetura de 64 bits, terá 8 bytes de tamanho na memória,  e essa variável irá armazenar um endereço, um endereço para outro espaço de memória.
 

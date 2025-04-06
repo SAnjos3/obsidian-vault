@@ -6,8 +6,8 @@
     - [[Scanf]]
     - [[Strings]]
     - [[Ponteiros em C]]
-    - Alocação de memória
-    - Tipos abstratos de dados (struct)
+    - [[Alocação de memória em C]]
+    - [[Structs em C]]
 
 3. Recursão
 

@@ -1,7 +1,7 @@
 ## 1. Conceitos Básicos
 
 - 1.1. [[História Banco de Dados]] e componentes de um Banco de Dados
-- 1.2. Funções de um Sistema de Banco de Dados ([[SBD]])
+- 1.2. Funções de um Sistema de Banco de Dados ([[Evolução de Sistemas de Bases de Dados]])
 - 1.3. Arquitetura de SBD e independência de dados
 - 1.4. Sistema Gerenciador de Banco de Dados ([[SGBD]])
 - 1.5. Componentes do SGBD

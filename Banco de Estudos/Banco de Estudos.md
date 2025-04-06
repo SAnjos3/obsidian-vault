@@ -4,7 +4,7 @@
 ## [[Tópicos Especiais em Programação]]
 ## [[Fundamentos Lógicos de Inteligência Artificial]]
 ## [[Estruturas de Dados]]
-## [[Desenvolvimento de Software]]
+## [[Métodos de Desenvolvimento de Software]]
 ## [[Fundamentos de Arquitetura de Computadores]]
 ## [[Sistemas de Banco de Dados]]
 ## [[Requisitos de Software]]
