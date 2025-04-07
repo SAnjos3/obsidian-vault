@@ -1,7 +1,7 @@
 ## [[Grafos]]
 
 - Busca em Largura/Profundidade  
-- Menor Caminho  
+- Menor Caminho   
 - Componentes Conectados  
 - Detecção de Ciclos  
 - Ordenação Topológica  
