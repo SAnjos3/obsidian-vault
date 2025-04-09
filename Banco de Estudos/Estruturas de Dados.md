@@ -77,7 +77,7 @@
         - [[Árvore 2-3]]
 	        - https://www.ime.usp.br/~pf/estruturas-de-dados/aulas/st-twothree.html
 
-        - Árvore Red Black
+        - [[Árvore Red Black]]
 	        - https://www.ime.usp.br/~pf/estruturas-de-dados/aulas/st-redblack.html
 
 10. Grafos

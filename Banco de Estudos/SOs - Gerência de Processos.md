@@ -49,7 +49,7 @@ Todas as informações sobre processos em execução são armazenadas na **Tabel
         
     - Diretório de trabalho
 
-![[Estados de um Processo]]
+![[SOs - Estados de um Processo]]
 
 
 Assim levando os conceitos acima em consideração, temos que a gerência e implementação dos processos ocorrem da seguinte maneira:
@@ -80,4 +80,4 @@ Assim levando os conceitos acima em consideração, temos que a gerência e impl
 
 13. O processo escolhido reinicia a execução.
 
-[[Escalonamento de Processos]]
+[[SOs - Escalonamento de Processos]]

@@ -1,15 +1,15 @@
 ## 1. **Introdução aos Sistemas Operacionais**
 
-   - [[Definição de Sistemas Operacionais]]
-   - [[História e Evolução de Sistemas Operacionais]]
-   - [[ Estrutura e Componentes de Sistemas Operacionais]]
+   - [[SOs - Definição]]
+   - [[SOs - História e Evolução]]
+   - [[SOs - Estrutura e Componentes]]
 
-## 2. **[[Processos em Sistemas Operacionais]]**
+## 2. Processos
 
-   - Conceito de processo e programa
-   - [[Estados de um Processo]]
+   - [[SOs - Processos]]
+   - [[SOs - Estados de um Processo]]
    - Tabela de processos
-   - [[Escalonamento de Processos]]
+   - [[SOs - Escalonamento de Processos]]
      - Algoritmos de escalonamento
      - Critérios de desempenho
 

@@ -14,5 +14,5 @@ Processos heavyweight é uma das classificações dos processos em **relação a
 
 	```Tanenbaum: "A CPU pode executar apenas um processo por vez, então o sistema operacional realiza a troca de contexto, suspendendo um processo e iniciando outro, dando a ilusão de paralelismo." ```
 
-Para que todo essa operação ocorra de forma eficiente, é necessária uma [[Criação e Finalização de Processos em Sistemas Operacionais]].
+Para que todo essa operação ocorra de forma eficiente, é necessária uma [[SOs - Criação e Finalização de Processos]].
 

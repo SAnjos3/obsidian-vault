@@ -27,12 +27,12 @@ Pode-se dizer que as informações de controle do SO define o contexto de softwa
 
 	Tanenbaum: "Um processo consiste de um código em execução, seus dados e a pilha, além de um conjunto de registradores da CPU e outras informações de estado armazenadas pelo sistema operacional."
 
-Processo podem ser classificados em dois tipos de acordo com o custo de troca de contexto e manutenção, mais sobre esse conteúdo pode ser encontrado em [[Gerência de Processos em Sistemas Operacionais]]
+Processo podem ser classificados em dois tipos de acordo com o custo de troca de contexto e manutenção, mais sobre esse conteúdo pode ser encontrado em [[SOs - Gerência de Processos]]
 
-- [[Processos Heavyweight]] 
-- Processos Lightweight
+- [[SOs - Processos Heavyweight]] 
+- [[Processos Lightweight ( Threads )]]
 
-**[[Criação e Finalização de Processos em Sistemas Operacionais]]**
+**[[SOs - Criação e Finalização de Processos]]**
 
 **Classificação de Processos**:
 

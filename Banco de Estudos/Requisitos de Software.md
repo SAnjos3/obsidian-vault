@@ -4,7 +4,7 @@
 2. [[Ciclos de vida ES]] 
 3. [[Processos na Engenharia de Requisitos]]  
 4. [[Frameworks ES]]
-## Introdução à [[Engenharia de Requisitos ]](ER)  
+## Introdução à [[Engenharia de Requisitos ]](ER) | 
 
 4. Aspectos humanos e sociais da Engenharia de Requisitos  
 5. Entendendo Problema e Necessidades  

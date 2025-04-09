@@ -69,6 +69,6 @@ Um computador é um conjunto de recursos que devem ser administrados e compartil
 
 Todo esse processo deve visar o máximo de eficiência.
 
-### [[Estrutura e Componentes de Sistemas Operacionais]]
+### [[SOs - Estrutura e Componentes]]
 
 Nesse tópico são encontradas classificações de SOs em relação a suas estruturas, componentes e abordagens
