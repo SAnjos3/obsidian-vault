@@ -75,7 +75,7 @@ As portas são divididas em três grandes categorias, baseadas na forma como sã
 
 ---
 
-## 🔁 Bidirecionalidade das Conexões
+## Bidirecionalidade das Conexões
 
 - As conexões de rede (ex: TCP) são **bidirecionais**.
 - Mesmo que a conexão seja iniciada de um lado (cliente), ambos os lados podem enviar e receber dados.

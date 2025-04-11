@@ -9,7 +9,7 @@
 	- Metadados: Dados sobre os dados. Armazenam descrição do esquema.
 ### Utilizando um SGBD
 
-- A Interface dos bancos de dados é definida pela linguagem declarativa [[SQL]] (DDL - Definir Banco de Dados + DML - Manipular Banco de Dados )
+- A Interface dos bancos de dados é definida pela linguagem declarativa [[SGBD - SQL]] (DDL - Definir Banco de Dados + DML - Manipular Banco de Dados )
 
 	- Procedural vs Declarativo:
 		  - Procedural: Exige especificação de quais são os tipos de dados e de como obtê-los. Mais baixo nível

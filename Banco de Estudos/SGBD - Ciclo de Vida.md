@@ -24,7 +24,7 @@ Nessa anotação, o foco é no ciclo de vida de um SGBD. E nesse contexto temos 
 	- Relacionamentos
 	- Restrições
 
-#### Projeto Lógico - MR
+#### Projeto Lógico - [[SGBD - Modelo Lógico]]
 
 - Esquema lógico
 	- Níveis conceitual lógico e externo / de visão

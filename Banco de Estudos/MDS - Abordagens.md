@@ -68,6 +68,6 @@ A adaptação do projeto ocorre com base nesses aspectos:
 
 ![[Pasted image 20250327113508.png]]
 
-## Abordagens > [[Ciclos de vida ES]]
+## Abordagens > [[MDS - Ciclos de vida]]
 
-Como dito, abordagem é considerado os conceitos, valores, princípios que regem como de maneira geral um projeto irá ser desenvolvido. O próximo nível para elaboração do escopo do projeto é a definição do [[Ciclos de vida ES]], ele deve estarde acordo com a abordagem escolhida
+Como dito, abordagem é considerado os conceitos, valores, princípios que regem como de maneira geral um projeto irá ser desenvolvido. O próximo nível para elaboração do escopo do projeto é a definição do [[MDS - Ciclos de vida]], ele deve estarde acordo com a abordagem escolhida

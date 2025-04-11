@@ -20,7 +20,7 @@ Ela é composta por **nós** conectados por **arestas**, formando uma estrutura 
 
 1. **Árvore Geral**: Cada nó pode ter qualquer número de filhos.
     
-2. [[Árvore Binária]]: Cada nó pode ter **no máximo dois filhos**.
+2. [[EDA - Árvore Binária]]: Cada nó pode ter **no máximo dois filhos**.
     
 3. [[Árvore de Busca Binária]] (BST)**: Uma árvore binária com regras para manter os elementos ordenados.
     

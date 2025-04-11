@@ -30,7 +30,7 @@ Pode-se dizer que as informações de controle do SO define o contexto de softwa
 Processo podem ser classificados em dois tipos de acordo com o custo de troca de contexto e manutenção, mais sobre esse conteúdo pode ser encontrado em [[SOs - Gerência de Processos]]
 
 - [[SOs - Processos Heavyweight]] 
-- [[Processos Lightweight ( Threads )]]
+- [[SOs - Processos Lightweight ( Threads )]]
 
 **[[SOs - Criação e Finalização de Processos]]**
 
@@ -43,3 +43,5 @@ Processos podem ser classificados como:
 - I/O-Bound: Possuem afinidade com Entrada e Saída, assim passam a maior parte do tempo em estado bloqueado por causarem muitas operações de Entrada e Saída.
 
 Muitas aplicações de computadores pessoais que rodam em primeiro plano são exemplos de aplicações I/O Bound. Essas aplicações passam muito tempo em estado bloqueado, aguardando as informações dos usuários.
+
+#### [[SOs - Portas de Rede]]

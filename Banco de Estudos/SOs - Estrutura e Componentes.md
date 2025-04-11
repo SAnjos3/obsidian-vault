@@ -71,12 +71,12 @@ Classificação de alguns sistemas operacionais amplamente utilizados:
 
 Uma das mais importantes classificações dos sistemas operacionais e esta relacionada com as configurações de seu kernel (núcleo). Dentre eles:
 
-- **[[Sistemas Monolíticos]]**
+- **[[SOs - Sistemas Monolíticos]]**
 
-- **[[Sistemas em Camadas]]**
+- **[[SOs - Sistemas em Camadas]]**
 
-- **[[Sistemas Micro-Kernel]]** (Cliente/Servidor)
+- **[[SOs - Sistemas Micro-Kernel]]** (Cliente/Servidor)
 
-- **[[Máquinas Virtuais]]**
+- **[[SOs - Máquinas Virtuais]]**
 
-- **[[Sistemas Exo-Kernel]]**
+- **[[SOs - Sistemas Exo-Kernel]]**

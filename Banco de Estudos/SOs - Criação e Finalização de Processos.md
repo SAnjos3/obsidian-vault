@@ -2,6 +2,7 @@
 
 Nesse contexto se ressalta a importância de se adotar uma gerência de processos eficiente.
 
+---
 #### Criação de um Processo
 
 Segundo Tanenbaum um processo pode ser criado de quatro formas diferentes:
@@ -21,6 +22,7 @@ Alguns processos executam em primeiro plano, ou seja, interagem com o usuário. 
 Primeiro Plano - Exemplos: Navegadores, editores de texto, jogos
 Segundo Plano - Exemplos: No **Linux**, um **daemon** como `cron` executa tarefas agendadas. No **Windows**, o **"Spooler de Impressão"** gerencia a fila de impressão.
 
+---
 #### Hierarquia de Processos
 
 ![[Pasted image 20250402231441.png]]
@@ -41,6 +43,7 @@ No Windows, há uma função que trata o processo de criação quanto da carga d
 
 - **`CreateProcess()` já cria um processo e carrega o programa na memória**, sem precisar de um `fork()`.
 
+---
 #### Finalização de um Processo
 
 Condição de Término de um Processo:
@@ -65,5 +68,3 @@ Quando um processo é criado, ele mantem sua ligação de parentesco com o seu a
 - Alternativa: Systemd.
 
 - O Windows não possui sistema de hierarquia
-
-

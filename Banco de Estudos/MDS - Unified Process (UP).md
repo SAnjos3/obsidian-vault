@@ -40,6 +40,6 @@ O Processo Unificado é focado em resolver os requisitos mais críticos no iníc
 
 Em resumo, o **Processo Unificado** oferece uma abordagem estruturada e flexível para o desenvolvimento de software. Essa flexibilidade se expressa em derivações evolutivas desse processo UP, são elas:
 
-- [[Rational Unified Process (RUP)]]
-- [[OpenUp]]
+- [[MDS - Rational Unified Process (RUP)]]
+- [[MDS - OpenUp]]
 - [[Agile Unified Process (AUP)]]

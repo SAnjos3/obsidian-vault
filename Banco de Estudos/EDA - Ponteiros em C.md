@@ -9,7 +9,7 @@ Quando fala-se sobre ponteiro, é importante levar em consideração o tamanho d
 
 O aspecto onde ponteiros e os tipos de variáveis se relacionam é na maneira como os dados são armazenados na memória. 
 
-![[Alocação de memória em C#Regiões da Memória]]
+![[EDA - Alocação de memória em C#Regiões da Memória]]
 
 Na linguagem C, ponteiros são denominado pelo `*` . A variável do tipo ponteiro, se estiver rodando em uma arquitetura de 64 bits, terá 8 bytes de tamanho na memória,  e essa variável irá armazenar um endereço, um endereço para outro espaço de memória.
 

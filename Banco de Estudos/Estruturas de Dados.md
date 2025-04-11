@@ -3,11 +3,11 @@
 1. Introdução
 
 2. [Linguagem C](https://www.brunoribas.com.br/apostila-eda/linguagem-C.html)
-    - [[Scanf]]
-    - [[Strings]]
-    - [[Ponteiros em C]]
-    - [[Alocação de memória em C]]
-    - [[Structs em C]]
+    - [[EDA - Scanf]]
+    - [[EDA - Strings]]
+    - [[EDA - Ponteiros em C]]
+    - [[EDA - Alocação de memória em C]]
+    - [[EDA - Structs em C]]
 
 3. Recursão
 
@@ -65,19 +65,19 @@
     - Fila de Prioridade 
 	    - https://www.brunoribas.com.br/apostila-eda/fila-de-prioridades.html
     
-8. [[Tabela Hash]] 
+8. [[EDA - Tabela Hash]] 
 	- https://www.brunoribas.com.br/apostila-eda/hashtable.html
 
-9. [[Árvores]]
+9. [[EDA - Árvores]]
 
-    - [[Árvore Binária]]
+    - [[EDA - Árvore Binária]]
 	    - https://www.brunoribas.com.br/apostila-eda/arvore.html
 
     - Árvores Balanceadas
-        - [[Árvore 2-3]]
+        - [[EDA - Árvore 2-3]]
 	        - https://www.ime.usp.br/~pf/estruturas-de-dados/aulas/st-twothree.html
 
-        - [[Árvore Red Black]]
+        - [[EDA - Árvore Red Black]]
 	        - https://www.ime.usp.br/~pf/estruturas-de-dados/aulas/st-redblack.html
 
 10. Grafos

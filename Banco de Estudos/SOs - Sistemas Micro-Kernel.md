@@ -1,6 +1,6 @@
 Os sistemas operacionais baseados em micro-kernel buscam minimizar as funções que são executadas no núcleo do sistema, assim como seu tamanho. 
 
-Essa é uma abordagem que se contrasta, quando comparada com os [[Sistemas Monolíticos]], os quais possuem a maioria dos serviços do SO sendo implementados em seus próprios núcleos. Esse sistema funciona com um conceito de cliente-servidor:
+Essa é uma abordagem que se contrasta, quando comparada com os [[SOs - Sistemas Monolíticos]], os quais possuem a maioria dos serviços do SO sendo implementados em seus próprios núcleos. Esse sistema funciona com um conceito de cliente-servidor:
 
 **Cliente-Servidor**: nesse modelo, a maior parte das funcionalidades o SO passam a ser operadas no modo de usuário. E essas funcionalidades serão divididas basicamente em dois tipos de processo:
 

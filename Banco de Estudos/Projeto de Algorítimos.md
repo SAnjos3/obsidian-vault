@@ -1,4 +1,4 @@
-## [[Grafos]]
+## [[PA - Grafos]]
 
 - Busca em Largura/Profundidade  
 - Menor Caminho   

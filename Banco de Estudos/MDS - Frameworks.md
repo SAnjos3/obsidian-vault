@@ -16,10 +16,10 @@ Eles **não são metodologias fechadas**, mas sim **conjuntos de diretrizes** qu
 No contexto do desenvolvimento ágil, frameworks como **Scrum**, **SAFe** e **LeSS** são amplamente utilizados para **organizar equipes, definir papéis e cadências de entrega** e promover a entrega contínua de valor ao cliente.
 ### Frameworks de Gerenciamento Ágil
 
-#### [[Scrum]]
+#### [[MDS - Scrum]]
 
 ### Frameworks de Escalabilidade
 
-#### [[SAFe]]
-#### [[LeSS]]
+#### [[MDS - SAFe]]
+#### [[MDS - LeSS]]
 
