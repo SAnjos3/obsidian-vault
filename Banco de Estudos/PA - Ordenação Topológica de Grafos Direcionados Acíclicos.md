@@ -15,6 +15,16 @@ Significa ordenar um grafo direcionado de forma que os componentes fiquem no for
 Quando aplica-se uma ordenação topológica, é possível obter diferentes resultados corretos, porém não se encontra nenhum resultado caso o grafo de origem possuísse um ciclo em sua estrutura.
 
 ![[Pasted image 20250414021941.png]]
+#### Lógica de Ordenação 
 
-- Para que um grafo seja considerado direcionado e acíclico, e possua uma ordenação topológica, então ele deve conter pelo menos nó o que não possua nenhuma aresta lhe apontando.
+Levando em consideração que em um grafo é direcionado acíclico, pode-se concluir que existe ordenação topológica para esse grafo.
 
+Grafos com essas características possuem pelo menos um nó o qual não possui nenhuma aresta lhe apontando, chamaremos esse nó de "nó-base"
+
+Utilizando essa propriedade, gera-se a ordenação topológica de um grafo:
+
+- Encontrando e retirando o nó-base do grafo.
+
+- Isso fará com que um novo nó receba a característica de não possuir arestas lhe apontando. Assim retira-se esses nós-base recursivamente, até que não sobre nenhum.
+
+- A ordem com que foi retirados os nós gerará a ordenação topológica do grafo estudado.
