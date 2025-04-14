@@ -42,4 +42,4 @@ Em resumo, o **Processo Unificado** oferece uma abordagem estruturada e flexíve
 
 - [[MDS - Rational Unified Process (RUP)]]
 - [[MDS - OpenUp]]
-- [[Agile Unified Process (AUP)]]
+- [[MDS - Agile Unified Process (AUP)]]

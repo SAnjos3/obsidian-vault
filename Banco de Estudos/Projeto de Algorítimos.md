@@ -1,6 +1,6 @@
 ## [[PA - Grafos]]
 
-- Busca em Largura/Profundidade  
+- [[PA - Busca em Grafos]]
 - Menor Caminho   
 - Componentes Conectados  
 - Detecção de Ciclos  
