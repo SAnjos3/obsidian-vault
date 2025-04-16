@@ -50,6 +50,7 @@ Para a dupla de `G = (V, E)` onde:
 ---
 
 - ### Grafos Direcionados 
+
 	
 	Nesses tipos de grafos, as arestas entre os nós ganham uma propriedade a mais, que é a direção delas. 
 	
@@ -59,6 +60,9 @@ Para a dupla de `G = (V, E)` onde:
 	
 	Essas propriedades são importantes por introduzirem uma nova semântica que promove mais possibilidades de representação de dados. 
 
+	Propriedades:
+	- Somatório de Graus em Grafos Direcionados:
+		∑d(v) = |E| 
 	- #### [[PA - Ordenação Topológica de Grafos Direcionados Acíclicos]]
 
 ### [[PA - Grafos Bipartidos]]

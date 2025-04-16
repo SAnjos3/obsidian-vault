@@ -65,7 +65,7 @@
     - Fila de Prioridade 
 	    - https://www.brunoribas.com.br/apostila-eda/fila-de-prioridades.html
     
-8. [[EDA - Tabela Hash]] 
+8. [[EDA - Tabela de Símbolos]] 
 	- https://www.brunoribas.com.br/apostila-eda/hashtable.html
 
 9. [[EDA - Árvores]]

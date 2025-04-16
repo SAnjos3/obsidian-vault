@@ -16,7 +16,6 @@ O retorno gerado por uma busca em largura é uma árvore, sendo o nó inicial a 
 Um nó é filho do outro se ele estiver conectado ao mesmo e se encontrar em uma camada a mais.
 
 Não se garante a ordem de busca entre os vizinhos de um nó. Assim cada vez que se roda um algorítimo BFS, pode ser retornada uma árvore diferente. Porém tem-se que a árvore retornada depende do nó inicial.
-
 #### Algoritmo BFS (Busca em Largura)
 
 ![[Pasted image 20250411205631.png]]
