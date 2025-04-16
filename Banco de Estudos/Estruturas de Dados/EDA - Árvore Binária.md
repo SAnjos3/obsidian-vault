@@ -30,7 +30,7 @@ Existem diferentes variações de árvores binárias, dependendo das regras usad
 
 4. **Árvore Binária Balanceada**: O número de níveis da árvore é mantido o mais baixo possível para otimizar a eficiência das operações.
     
-5. **[[Árvore Binária de Busca]] (BST - Binary Search Tree)**: Segue regras que mantêm os elementos ordenados (como explicado antes).
+5. **[[EDA - Árvore Binária de Busca]] (BST - Binary Search Tree)**: Segue regras que mantêm os elementos ordenados (como explicado antes).
 
 ####  **Operações em Árvores Binárias**
 

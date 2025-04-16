@@ -5,7 +5,7 @@ Na modelagem conceitual, essa ideia se aplica ao associar componentes como Conju
 
 ##### **Agregação de Atributos**:
 
-Ao agregar atributos, se cria um atributo composto. [[DER - Atributos#Tipos de Atributos]]
+Ao agregar atributos, se cria um atributo composto. [[SGBD - DER - Atributos#Tipos de Atributos]]
 
 ![[Pasted image 20250408094449.png]]
 

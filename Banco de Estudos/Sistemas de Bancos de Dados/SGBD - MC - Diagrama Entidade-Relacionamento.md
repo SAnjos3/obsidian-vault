@@ -2,9 +2,9 @@ Também conhecido como Modelo Entidade-Relacionamento, o DER é uma técnica par
 #### DER -  Estrutura
 
 ![[Pasted image 20250408233439.png]]
-#### [[DER - Entidades]]
+#### [[SGBD - DER - Entidades]]
 
-#### [[DER - Relacionamentos]]
+#### [[SGBD - DER - Relacionamentos]]
 
 #### Grau
 
@@ -16,15 +16,15 @@ Um Conjunto de Relacionamentos (CR) pode envolver dois ou mais Conjuntos de Enti
 
 ![[Pasted image 20250408233749.png]]
 
-#### [[DER - Atributos]]
-#### [[DER - Cardinalidade de CRs]]
+#### [[SGBD - DER - Atributos]]
+#### [[SGBD - DER - Cardinalidade de CRs]]
 
 #### MER-X - Modelo Conceitual Estendido
 
 O MER-X é uma extensão do MER (DER). Essa extensão advém de princípios relacionados com orientação e objetos. O modelo entidade relacionamento foi ampliado para englobar novos conceitos.
 
-##### [[DER - Agregação]]
+##### [[SGBD - DER - Agregação]]
 
-##### [[DER - Generalização e Especialização]]
+##### [[SGBD - DER - Generalização e Especialização]]
 
 
