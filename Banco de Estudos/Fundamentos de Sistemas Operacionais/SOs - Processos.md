@@ -30,7 +30,7 @@ Pode-se dizer que as informações de controle do SO define o contexto de softwa
 Processo podem ser classificados em dois tipos de acordo com o custo de troca de contexto e manutenção, mais sobre esse conteúdo pode ser encontrado em [[SOs - Gerência de Processos]]
 
 - [[SOs - Processos Heavyweight]] 
-- [[SOs - Processos Lightweight ( Threads )]]
+- [[SOs -  Threads]]
 
 **[[SOs - Criação e Finalização de Processos]]**
 

@@ -13,7 +13,7 @@
      - Algoritmos de escalonamento
      - Critérios de desempenho
 
-## 3. **Threads**
+## 3. [[SOs -  Threads]]
 
    - Diferença entre processos e threads
    - Threads em espaço de usuário vs. espaço de kernel

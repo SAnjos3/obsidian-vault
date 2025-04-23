@@ -20,3 +20,6 @@ Em 1981, Peterson melhorou o algorítimo baseado em outro chamado Dekker. Esse a
 - Os processos possuem um id único ( 0 ou 1).
 - O processo deve chamar uma função enter_region, que retorna quando for seguro entrar na seção.
 - Ao terminar o processamento, a função leave_region deve ser chamada para indicar que outros processos podem prosseguir.
+- Garante que um processo fora da seção crítica não bloqueie outros.
+
+![[Pasted image 20250416131416.png]]
