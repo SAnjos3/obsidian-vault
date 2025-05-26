@@ -1,8 +1,10 @@
 Um Sistema Operacional baseado em Máquinas Virtuais é um SO projetado para hospedar múltiplos outros sistemas operacionais. Isso significa que o foco desse tipo de SO é ser eficiente no gerenciamento de VMs, garantindo que diferentes sistemas possam coexistir sem interferências.
 
+![[Pasted image 20250524235632.png]]
+
 **[[VMs]]** (Virtual Machine): são ambientes isolados que funcionam como computadores independentes. Porém precisam de um programa que os permita utilizar recursos do hardware
 
-Nesse contexto, foi elaborado o monitor de máquinas virtual. Também conhecido como hipervisor, é o software responsável por gerenciar as máquinas virtuais. É por meio desse programa que há a criação de VMs, além do mesmo ser responsável por:
+Nesse contexto, foi elaborado o **Monitor de Máquina Virtual.** Também conhecido como hipervisor, é o software responsável por gerenciar as máquinas virtuais. É por meio desse programa que há a criação de VMs, além do mesmo ser responsável por:
 
 - **Gerência de Recursos**: Controla a alocação de CPU, memória, disco e dispositivos de entrada/saída entre as VMs.
 

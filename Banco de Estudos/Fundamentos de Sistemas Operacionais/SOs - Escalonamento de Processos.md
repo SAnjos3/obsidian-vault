@@ -6,49 +6,31 @@ Os sistemas computacionais modernos executam múltiplos processos simultaneament
 
 O sistema operacional realiza essa escolha com base em políticas de escalonamento, priorizando eficiência, tempo de resposta e justiça na distribuição do processador.
 
----
-###  Objetivo do Escalonamento
-
-O escalonador tem como principais objetivos:
-
-- **Multiplexação da CPU**: alternar a execução entre vários processos;
-    
-- **Eficiência**: garantir que a CPU não fique ociosa sem necessidade;
-    
-- **Equidade**: distribuir o tempo de CPU entre os processos de forma justa;
-    
-- **Tempo de resposta otimizado**: reduzir a espera de processos interativos;
-    
-- **Melhor aproveitamento dos recursos**: evitando gargalos no sistema.
-
 ![[Pasted image 20250407123135.png]]
 
 Executando concorrentemente pode-se obter uma melhor utilização da CPU, já que em momentos onde a CPU estaria ociosa em algum processo, ela é redirecionada a outro processo. 
 
 ---
-### Escalonadores
+#### Critérios de Escalonamento
 
-Para o debate sobre escalonação, o conceito de preempção é muito importante.
-	`Preempção: Suspensão temporária da execução de um processo.`
+Ao se projetar um escalonador, devemos observar vários critérios que devem estar presentes em um bom algoritmo de escalonamento:
 
-Os escalonadores podem ser classificados em dois tipos. São eles:
+- **Justiça**: garantir que todos os processos terão chances justas de uso de processador. Não são chances iguais.
 
----
-#### Não - Preemptivos 
-São escalonadores onde nenhuma entidade externa pode retirar os recursos da CPU alocados em um processo. Quando um processo obtém o processador, ele roda até o fim ou até que ele peça uma operação que ocasione o seu bloqueio.
-#### Preemptivos 
-Diferente dos escalonadores não-preemptivos. Cada processo tem um **"fatiamento de tempo" (time-slice)**. Quando esse tempo acaba, o **SO força** a troca para outro processo. Isso acontece usando **interrupções de hardware**.
+- **Eficiência**: quando existir trabalho a fazer, o processador deve estar ocupado.
 
+- **Minimizar o tempo de resposta**: reduzindo o tempo dos usuários interativos, reduz o tempo entre a entrada de usuário e a resposta dada (não considera tempo total de execução)
+
+- **Minimizar o turnaround**: reduzir o tempo desde o lançamento do processo até seu término. Soma de: tempo de espera por recursos (memória, processador, E/S) e tempo de utilização da CPU. Mais utilizado em processamento batch
+
+- **Minimizar waiting time**: Esse critério visa minimizar o tempo de espera pela CPU
+
+- **Maximizar throughtput**: Maximizar o número de tarefas executados em uma unidade de tempo
+
+
+	`obs: Não é possível atingir todos esses critérios de escalonamento, muito são contraditórios entre si.`
+	
 --- 
-#### Funcionamento do Escalonamento
-
- O processador tem um **relógio interno (clock)** que gera interrupções frequentes. O SO tem um **contador de tempo** que é diminuído a cada "tick" do clock. Quando o contador chega em 0, o **tempo do processo acabou** e outro processo assume a CPU.
-
----
-####  Troca de Contexto
-
-A **troca de contexto** ocorre quando o sistema operacional **substitui um processo em execução por outro**. Esse processo envolve salvar o estado do processo atual e restaurar o estado do próximo processo a ser executado. Esse mecanismo garante a continuidade da execução dos processos sem perda de informações.
-
 ### [[SOs - Algoritmos de Escalonamento de Processos]]
 
 

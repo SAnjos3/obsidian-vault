@@ -2,6 +2,8 @@
 
 	Tanenbaum: "Não há estrutura"/"Uma grande bagunça". O sistema operacional por inteiro é programado como um único componente. A estrutura do SO é mantida em organização de código.
 
+![[Pasted image 20250524231344.png]]
+
  - Possui a melhor organização visando o tempo de resposta.
 
 - Todos os procedimentos do núcleo são visíveis a todos os outros.

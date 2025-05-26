@@ -6,7 +6,7 @@ O **Scrum** é um framework ágil utilizado para gerenciar e desenvolver produto
 
 - **Product Owner (PO):** Responsável por maximizar o valor do produto e gerenciar o backlog do produto, garantindo que a equipe trabalhe nas tarefas de maior valor para o negócio.​
     
-- **Scrum Master:** Atua como facilitador do processo Scrum, ajudando a equipe a entender e implementar as práticas do Scrum, removendo impedimentos e promovendo a melhoria contínua.​[DEV Community+1Scrum Guides+1](https://dev.to/lima1301lucas/o-basico-do-scrum-um-guia-simples-e-rapido-5ak7?utm_source=chatgpt.com)
+- **Scrum Master:** Atua como facilitador do processo Scrum, ajudando a equipe a entender e implementar as práticas do Scrum, removendo impedimentos e promovendo a melhoria contínua.​
     
 - **Desenvolvedores:** Profissionais responsáveis por executar o trabalho de desenvolvimento durante o sprint, colaborando para alcançar os objetivos definidos.
 

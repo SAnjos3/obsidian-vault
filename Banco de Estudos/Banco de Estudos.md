@@ -7,7 +7,7 @@
 ## [[Métodos de Desenvolvimento de Software]]
 ## [[Fundamentos de Arquitetura de Computadores]]
 ## [[SBD]]
-## [[Banco de Estudos/Requisitos de Software]]
+## [[Requisitos de Software]]
 ## [[Projeto de Algorítimos]]
 ## [[Fundamentos de Sistemas Operacionais]]
 ## [[Compiladores]]

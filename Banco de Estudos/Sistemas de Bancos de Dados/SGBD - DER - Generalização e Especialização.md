@@ -56,7 +56,8 @@ Um mesmo CE participa como CE Genérico em mais de uma ocorrência de Abstraçã
 
 Em modelagem conceitual, a abstração de generalização pode ser complementada por restrições que definem como os subtipos (entidades especializadas) se relacionam com o supertipo (entidade genérica). As principais restrições são: disjunção, sobreposição, totalidade e parcialidade.
 
-###### Restrição de Disjunção (Exclusão Mútua)
+##### Restrição de Disjunção 
+###### Exclusão Mútua
 
 ![[Pasted image 20250408234935.png]]
 
@@ -68,6 +69,8 @@ Essa restrição indica que uma instância do supertipo pode pertencer a **no m�
 
 Permite que uma instância do supertipo pertença a **mais de um** subtipo simultaneamente. Ou seja, os conjuntos especializados podem se sobrepor. Por exemplo, uma pessoa pode exercer simultaneamente as funções de secretário e bibliotecário. Essa restrição é útil quando subtipos representam papéis ou funções acumuláveis.
 
+---
+##### Restrições de Totalidade
 ###### Restrição de Totalidade
 
 ![[Pasted image 20250408235020.png]]

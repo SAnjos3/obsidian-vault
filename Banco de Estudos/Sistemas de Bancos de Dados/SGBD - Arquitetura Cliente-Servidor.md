@@ -22,14 +22,16 @@
 	
 - **Servidor**: BD + SGBD + Computador Servidor de Aplicação.
 	- Com o Servidor, as aplicações começam a ser divididas no em server side e client side.
+	- Servidor de Aplicação é o computador/servidor responsável por executar a lógica de negócio que antigamente estava no cliente.
 
 ![[Pasted image 20250330223011.png]]
 
 #### Quatro Camadas - Adaptatividade 
 
-- **Aplicações-Cliente**: Se torna mais simples. E agora a interface não é mais guardada nesse lado. Isso permitiu que por exemplo uma mesma aplicação tivesse a mesma interface para diferentes browsers, enquanto antes era necessário implementar para cada um dos navegadores.
+- **Cliente**: Se torna mais simples. E agora a interface não é mais guardada nesse lado. Isso permitiu que por exemplo uma mesma aplicação tivesse a mesma interface para diferentes browsers, enquanto antes era necessário implementar para cada um dos navegadores.
 
 - **Servidor**: DB <- SGBD <- Servidor de Aplicação <- Servidor de Interface 
+	- Servidor de Interface é o computador/servidor dedicado a gerar e entregar a interface gráfica para o cliente.
 
 ![[Pasted image 20250330222806.png]]
 

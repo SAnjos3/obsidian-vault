@@ -19,6 +19,8 @@ Pode ser definido como filosofia, valores e princípios que orientam o desenvolv
 	- Pois necessita de mais tempo  ao início do projeto para deixar o plano bastante coeso
 	
 - Porém a medida que o projeto é desenvolvido, os requisitos podem mudar ou podem surgir novos. Nesses casos, se torna necessário retrabalhar e testar o projeto. Como consequência, essa abordagem pode levar mais tempo para ser concluída.
+
+---
 ## **2.  Ágeis
 
 	- Nessa abordagem os prazos e recursos são previamente estabelecidos, enquanto os requisitos são estimados.
@@ -38,18 +40,17 @@ Pode ser definido como filosofia, valores e princípios que orientam o desenvolv
 	Valores da abordagem ágil:
 	
 	![[Pasted image 20250327091936.png]]
-###  Visão geral  da abordagem Dirigida por Planos e abordagem Ágil
 
-![[Pasted image 20250327113416.png]]
+---
 ## **3.  Híbrido
 
 Essa abordagem é adaptativa e toma como prioridade o contexto. Isso significar que, caso o projeto tenha começado com uma abordagem dirigida a plano, mas o contexto se tornou muito instável, seria aplicada uma transição para uma abordagem ágil, para lidar melhor com a inconstância. O contrário também pode ser aplicado.
 
 - Documentação multi-nível 
-	-Uma documentação que permite equilibrar a ideia de planejamento detalhado e rígido (abordagem dirigida a planos) com uma documentação mais flexível e adaptável (abordagem ágil)
+	Uma documentação que permite equilibrar a ideia de planejamento detalhado e rígido (abordagem dirigida a planos) com uma documentação mais flexível e adaptável (abordagem ágil)
 	
 - Rastreabilidade seletiva
-	-É o processo de **rastrear apenas as informações mais relevantes** dentro da documentação, em vez de tentar manter controle sobre tudo. Ou seja, essa rastreabilidade seletiva permite o equilíbrio entre sempre manter o controle de tudo, com a flexibilidade da abordagem ágil 
+	É o processo de **rastrear apenas as informações mais relevantes** dentro da documentação, em vez de tentar manter controle sobre tudo. Ou seja, essa rastreabilidade seletiva permite o equilíbrio entre sempre manter o controle de tudo, com a flexibilidade da abordagem ágil 
 
 - Priorização contextual
 
@@ -62,11 +63,6 @@ A adaptação do projeto ocorre com base nesses aspectos:
 - Estágio do projeto
 
 - Estabilidade do domínio
-
-
-### Visão geral das abordagens 
-
-![[Pasted image 20250327113508.png]]
 
 ## Abordagens > [[MDS - Ciclos de vida]]
 

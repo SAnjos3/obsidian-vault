@@ -1,5 +1,7 @@
 O sistema é organizado em camadas funcionais. Cada camada faz uma requisição à camada inferior, a camada inferior trata a complexidade do procedimento de sua forma e retorna um produto para a camada superior.
 
+![[Pasted image 20250524231236.png]]
+
 Esses sistemas são estruturados de forma hierárquica, criando uma separação clara de responsabilidades e funcionalidades. Essa abordagem facilita a manutenção, depuração e compreensão do sistema.
 
 A noção de camadas é fortemente reforçada pelo hardware.

@@ -4,15 +4,17 @@ Essa é uma abordagem que se contrasta, quando comparada com os [[SOs - Sistemas
 
 **Cliente-Servidor**: nesse modelo, a maior parte das funcionalidades o SO passam a ser operadas no modo de usuário. E essas funcionalidades serão divididas basicamente em dois tipos de processo:
 
-	- Processos-Cliente: abordam as funcionalidades ligadas às aplicações dos clientes.
+- **Processos-Cliente**: abordam as funcionalidades ligadas às aplicações dos clientes.
 
-	- Processos-Servidores: incluem a maior parte das funcionalidades do SO, como o gerenciamento de arquivos, controle de dispositivos, protocolos de rede e outros serviços de alto nível.
+- **Processos-Servidores**: incluem a maior parte das funcionalidades do SO, como o gerenciamento de arquivos, controle de dispositivos, protocolos de rede e outros serviços de alto nível.
+
+![[Pasted image 20250524234417.png]]
 
 Essa abordagem permite uma separação modular que facilita a manutenção e atualização dos componentes individuais do sistema.
 
 Para isso, existe um núcleo de Sistema Operacional reduzido que atua como servidor central, o qual é responsável por atuar como intermediário essencial, fornecendo abstração de processos e mecanismos de comunicação entre os processos (IPC) e funções de baixo nível para interação com o hardware.
 
-**Funcionalidades que permanecem no microkernel (núcleo):**
+#### **Funcionalidades que permanecem no microkernel (núcleo):**
 
 - **Gerenciamento Básico de Processos e Escalonamento:**  
     O microkernel cuida da criação, término e escalonamento dos processos. Ele gerencia a troca de contexto e garante que os processos recebam tempo de CPU de forma justa.
@@ -32,3 +34,5 @@ Para isso, existe um núcleo de Sistema Operacional reduzido que atua como servi
 - **Desafios de Implementação:** Apesar das vantagens, implementar um microkernel pode ser desafiador. Algumas operações de baixo nível, como carregar comandos nos registradores físicos, são complexas de realizar dentro desse esquema devido às restrições de acesso direto ao hardware impostas pela separação entre núcleo e servidores.​
     
 - **Popularidade Relativa:** Embora a implementação de microkernels seja complexa, eles têm ganhado popularidade em certos contextos, especialmente onde a segurança, a modularidade e a estabilidade são prioritárias.
+	
+- **Isolamento de Falhas**: Esta é uma das vantagens mais significativas do modelo. No microkernel, se um servidor (por exemplo, o servidor de arquivos ou o servidor de memória) que executa em modo usuário encontrar um erro, ele poderá parar, mas o sistema operacional não ficará inteiramente comprometido.

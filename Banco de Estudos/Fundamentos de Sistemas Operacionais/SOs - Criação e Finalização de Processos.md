@@ -1,8 +1,3 @@
-```Machado e Maia: A criação de processos é essencial para a execução de múltiplas tarefas em sistemas operacionais modernos, garantindo a execução paralela de programas."```
-
-Nesse contexto se ressalta a importância de se adotar uma gerência de processos eficiente.
-
----
 #### Criação de um Processo
 
 Segundo Tanenbaum um processo pode ser criado de quatro formas diferentes:
@@ -43,6 +38,13 @@ No Windows, há uma função que trata o processo de criação quanto da carga d
 
 - **`CreateProcess()` já cria um processo e carrega o programa na memória**, sem precisar de um `fork()`.
 
+Quando um processo é criado, ele mantem sua ligação de parentesco com o seu ascendente, ou seja, ligação com o processo que o gerou. Levando isso em consideração:
+
+- Todos os processos são descendentes do processo init. 
+- Alternativa: Systemd.
+
+- O Windows não possui sistema de hierarquia
+
 ---
 #### Finalização de um Processo
 
@@ -60,11 +62,4 @@ Condição de Término de um Processo:
 
 - **Cancelamento por Outro Processo**: ocorre quando um processo chama uma rotina de finalização para outro processo em execução. É considerado um processo involuntário.
 
-**Hierarquia de Processos**:
 
-Quando um processo é criado, ele mantem sua ligação de parentesco com o seu ascendente, ou seja, ligação com o processo que o gerou. Levando isso em consideração:
-
-- Todos os processos são descendentes do processo init. 
-- Alternativa: Systemd.
-
-- O Windows não possui sistema de hierarquia

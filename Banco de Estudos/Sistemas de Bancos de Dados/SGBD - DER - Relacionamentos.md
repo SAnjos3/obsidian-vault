@@ -23,3 +23,22 @@ Cada Conjunto de Entidade que participa de um Conjunto de Relacionamento, possui
 
 ![[Pasted image 20250331095630.png]]
 
+![[Pasted image 20250428002451.png]]
+
+![[Pasted image 20250428002504.png]]
+#### Grau do Conjunto de relacionamentos
+
+Grau é o número de Conjunto de Entidades envolvidos em um relacionamento:
+
+- 2 CEs - Relacionamento Binário 
+- 3 CEs - Relacionamento Ternário 
+- N CEs - Relacionamento n-ário
+
+![[Pasted image 20250428002131.png]]
+
+Cardinalidades possíveis para Ternários: 
+
+-  1:1:1 
+-  1:1:N 
+-  1:N:M 
+-  N:M:P

@@ -22,7 +22,7 @@ Um Conjunto de Relacionamentos (CR) pode envolver dois ou mais Conjuntos de Enti
 #### MER-X - Modelo Conceitual Estendido
 
 O MER-X é uma extensão do MER (DER). Essa extensão advém de princípios relacionados com orientação e objetos. O modelo entidade relacionamento foi ampliado para englobar novos conceitos.
-
+##### [[SGBD - DER - Restrição de Participação]]
 ##### [[SGBD - DER - Agregação]]
 
 ##### [[SGBD - DER - Generalização e Especialização]]
