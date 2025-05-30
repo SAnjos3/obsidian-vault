@@ -82,9 +82,9 @@ As threads chamam procedimentos diferentes, em tempos diferentes, resultando em 
 
 #### Manipulação de Threads
 
--  thread_create: cria uma thread nova, passando uma função como argumento para iniciar a execução.
+- thread_create: cria uma thread nova, passando uma função como argumento para iniciar a execução.
 
--  thread_exit: termina a thread em execução.
+- thread_exit: termina a thread em execução.
 
 - thread_yield: permite que uma thread desista voluntariamente da CPU.
 
@@ -103,11 +103,10 @@ As threads chamam procedimentos diferentes, em tempos diferentes, resultando em 
 - Em alguns sistemas, criar uma thread é 100 vezes mais rápido que criar um processo
 
 ---
-
 #### [[Multiprogramação]]
 
-
 --- 
+#### [[SOs - Implementação de Threads]] 
 
-#### [[Implementação de Threads]] 
-
+---
+#### [[SOs - Execução de Threads]]

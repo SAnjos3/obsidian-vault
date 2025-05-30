@@ -1,4 +1,4 @@
-Os **algoritmos de escalonamento** determinam a política usada para escolher qual processo será executado. 
+Os **algoritmos de escalonamento** determinam a política usada para escolher qual processo será executado. Nesse componente, serão estudados 4 algorítimos clássicos.
 
 Para o debate sobre escalonação, o conceito de preempção é muito importante.
 
@@ -24,5 +24,3 @@ Diferente dos escalonadores não-preemptivos. Cada processo tem um **"fatiamento
 - **[[SOs - Escalonamento Round Robin (RR)]]**: Cada processo recebe um tempo fixo de CPU (quantum) antes de ser substituído por outro processo na fila. Versão preemptiva do escalonamento FCFS.
     
 - **[[SOs - Escalonamento por Prioridade]]**: Cada processo recebe uma prioridade fixa ou dinâmica e os processos de maior prioridade são executados primeiro.
-
----

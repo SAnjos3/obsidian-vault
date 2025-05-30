@@ -10,12 +10,12 @@
 - Algoritmo A*  
 - Árvore Geradora Mínima  
 
-## Algoritmos Ambiciosos
+## [[PA - Algoritmos Ambiciosos]]
 
 - Mochila (Knapsack)  
-- Interval Scheduling  
-- Interval Partitioning  
-- Atraso Máximo  
+- [[PA - Interval Scheduling]]  
+- [[PA - Interval Partitioning]]  
+- [[PA - Minimizing Lateness]]  
 - Caminhoneiro  
 - Caixa  
 - Compressão de Dados/Código de Huffman  
